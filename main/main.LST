@@ -1,0 +1,267 @@
+C51 COMPILER V9.01   MAIN                                                                  07/08/2023 14:47:39 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #include "LCD_16x2.h"
+   3          #include "Keypad_4x4.h"
+   4          #include <string.h>
+   5          
+   6          
+   7          
+   8          #define MAX_SIZE 24
+   9          #define MAX_RESULT 2147483647
+  10          #define MIN_RESULT -2147483647
+  11          
+  12          uchar bufferDisplay[LCD_numOfCols] = "                ";
+  13          uchar bufferCalc[MAX_SIZE];
+  14          uchar numOfDisplayedChars = 0, numOfChars = 0, pressedEqualKey = 0;
+  15          
+  16          
+  17          
+  18          void reset() 
+  19          {
+  20   1              lcd_clear();
+  21   1              memcpy(bufferDisplay, "                ", LCD_numOfCols);
+  22   1              memset(bufferCalc, 0, MAX_SIZE);
+  23   1              numOfDisplayedChars = 0;
+  24   1              numOfChars = 0;
+  25   1              pressedEqualKey = 0;
+  26   1      }
+  27          
+  28          
+  29          
+  30          int calculate()
+  31          {
+  32   1              long result = 0, operand = 0, operand1 = 0; 
+  33   1              uchar operator = ' '; 
+  34   1              char priorityCalcFlag = 0, lastIndexOfSumSubSign = -1, notCompleteCalcFlag = 0, i;
+  35   1              
+  36   1              for (i = 0; i < numOfChars; i++) {              
+  37   2                      /* ------------------------------ handle number ------------------------------ */
+  38   2                      if (bufferCalc[i] >= '0' && bufferCalc[i] <= '9') 
+  39   2                      {                       
+  40   3                              /* prioritize to calculate * or / before */
+  41   3                              if ((i != 0) && (bufferCalc[i-1] == 'x' || bufferCalc[i-1] == 0xFD))
+  42   3                                      priorityCalcFlag = 1;
+  43   3                              
+  44   3                              /* not complete calculation previously */
+  45   3                              if (notCompleteCalcFlag == 1 ) 
+  46   3                              {
+  47   4                                      operand = operand1;
+  48   4                                      if (operator == '-' || operator == 0xFD)
+  49   4                                      {
+  50   5                                              operand1 = result;
+  51   5                                              result = operand;
+  52   5                                              operand = operand1;
+  53   5                                      }
+  54   4                                      operand1 = 0;
+  55   4                                      notCompleteCalcFlag = 0;
+C51 COMPILER V9.01   MAIN                                                                  07/08/2023 14:47:39 PAGE 2   
+
+  56   4                                      priorityCalcFlag = 0;
+  57   4                              } 
+  58   3                              /* convert sequence to number  */               
+  59   3                              else 
+  60   3                              {
+  61   4                                      operand += (bufferCalc[i] - '0');
+  62   4                                      while ((i != numOfChars-1) && (bufferCalc[i+1] >= '0') && (bufferCalc[i+1] <= '9'))
+  63   4                                      {
+  64   5                                              operand *= 10;
+  65   5                                              operand += (bufferCalc[++i] - '0');     
+  66   5                                      }
+  67   4                              }
+  68   3                              
+  69   3                              /* if number is before (* or /) and is after (+ or -) */
+  70   3                              if ((i != numOfChars-1) && (bufferCalc[i+1] == 'x' || bufferCalc[i+1] == 0xFD) && (priorityCalcFlag == 
+             -0)) 
+  71   3                              {
+  72   4                                      operand1 = result;      // store calculated result before
+  73   4                                      operator = ' ';
+  74   4                              }                                                       
+  75   3                              
+  76   3                              /* calculate */                         
+  77   3                              if (operator == '+') 
+  78   3                              {
+  79   4                                      result += operand;
+  80   4                              }                               
+  81   3                              else if (operator == '-') 
+  82   3                              {
+  83   4                                      result -= operand;
+  84   4                              }                                                                                                       
+  85   3                              else if (operator == 'x') 
+  86   3                              {
+  87   4                                      result *= operand;
+  88   4                              }                               
+  89   3                              else if (operator == 0xFD) 
+  90   3                              {
+  91   4                                      if (operand == 0)                               // systax error
+  92   4                                              return -1;
+  93   4                                      result /= operand;              
+  94   4                              }                               
+  95   3                              else
+  96   3                                      result = operand;
+  97   3                              
+  98   3                              /* calculate result until now*/
+  99   3                              if (priorityCalcFlag == 1) {                                                    
+ 100   4                                      if (bufferCalc[i+1] != 'x' && bufferCalc[i+1] != 0xFD && lastIndexOfSumSubSign != -1) 
+ 101   4                                      {
+ 102   5                                              operator = bufferCalc[lastIndexOfSumSubSign];
+ 103   5                                              notCompleteCalcFlag = 1;
+ 104   5                                              i--;                                                                    
+ 105   5                                      }
+ 106   4                                      priorityCalcFlag = 0;
+ 107   4                              }       
+ 108   3                      } 
+ 109   2      
+ 110   2                 /* ------------------------------ handle operator ------------------------------ */
+ 111   2                      else 
+ 112   2                      {                                                                                                       
+ 113   3                              if (i == 0 || bufferCalc[i+1] < '0' || bufferCalc[i+1] > '9')   // systax error
+ 114   3                                      return -1;
+ 115   3      
+ 116   3                              if (bufferCalc[i] == '+' || bufferCalc[i] == '-')
+C51 COMPILER V9.01   MAIN                                                                  07/08/2023 14:47:39 PAGE 3   
+
+ 117   3                                      lastIndexOfSumSubSign = i;
+ 118   3      
+ 119   3                              operator = bufferCalc[i];                       
+ 120   3                      }       
+ 121   2                      
+ 122   2                      operand = 0;                                                    
+ 123   2              }               
+ 124   1              
+ 125   1              /* ------------------------------------ handle result ---------------------------------- */
+ 126   1              if (result == 0)
+ 127   1                      bufferDisplay[--numOfDisplayedChars] = '0';
+ 128   1              else {
+ 129   2                      if (result < 0)
+ 130   2                              operand = result * -1;
+ 131   2                      else
+ 132   2                              operand = result;
+ 133   2                      
+ 134   2                      while (operand != 0) {
+ 135   3                              bufferDisplay[--numOfDisplayedChars] = (operand % 10 + '0');
+ 136   3                              operand /= 10;
+ 137   3                      }
+ 138   2                      if (result < 0)
+ 139   2                              bufferDisplay[--numOfDisplayedChars] = '-';     
+ 140   2              }                               
+ 141   1              return 0;
+ 142   1      }
+ 143          
+ 144          
+ 145          
+ 146          void main()
+ 147          {       
+ 148   1          uchar col, row, i;
+ 149   1              
+ 150   1              lcd_init();
+ 151   1              
+ 152   1          while(1)
+ 153   1          {                   
+ 154   2                      /* scan column to identify key */
+ 155   2                      col = keypad_scanColumn();
+ 156   2                      
+ 157   2                      /* ----------------------------- when key is pressed  --------------------------------- */
+ 158   2                      if (col != -1)                                                                  
+ 159   2                      {                                                               
+ 160   3                              /* handle display full line */
+ 161   3                              if (numOfDisplayedChars == LCD_numOfCols-1) {           
+ 162   4                                      bufferDisplay[0] = 0x7F;                                        // symbol '<-'
+ 163   4                                      for (i = 1; i < LCD_numOfCols-2; i++)
+ 164   4                                              bufferDisplay[i] = bufferDisplay[i+1];                  
+ 165   4                                      --numOfDisplayedChars;
+ 166   4                              }
+ 167   3      
+ 168   3                              /* scan row to identify key */
+ 169   3                              row = keypad_scanRow(); 
+ 170   3                              
+ 171   3                              /* handle 'ON/C' key */ 
+ 172   3                              if (keys[row][col] == ' ') {                            
+ 173   4                                      reset();
+ 174   4                              }
+ 175   3      
+ 176   3                              /* handle '=' key */
+ 177   3                              else if (keys[row][col] == '=') {                                       
+ 178   4                                      numOfDisplayedChars = 16;
+C51 COMPILER V9.01   MAIN                                                                  07/08/2023 14:47:39 PAGE 4   
+
+ 179   4                                      memcpy(bufferDisplay, "                ", LCD_numOfCols);
+ 180   4                                      
+ 181   4                                      i = calculate();
+ 182   4                                      if (i == -1) {
+ 183   5                                              reset();
+ 184   5                                              lcd_movCur(1, 3);
+ 185   5                                              lcd_sendStr("Syntax ERROR");    
+ 186   5                                      }
+ 187   4      //                              else if (i == -2) {
+ 188   4      //                                      reset();
+ 189   4      //                                      lcd_movCur(1, 2);
+ 190   4      //                                      lcd_sendStr("Overflow ERROR");
+ 191   4      //                              }
+ 192   4      //                              else if (i == -3) {
+ 193   4      //                                      reset();
+ 194   4      //                                      lcd_movCur(1, 2);
+ 195   4      //                                      lcd_sendStr("Underflow ERROR");
+ 196   4      //                              }
+ 197   4                                      else {
+ 198   5                                              lcd_movCur(2, 1);
+ 199   5                                              lcd_sendStr(bufferDisplay);     
+ 200   5                                      }
+ 201   4      
+ 202   4                                      numOfDisplayedChars = 16;
+ 203   4                                      pressedEqualKey = 1;            
+ 204   4                              }  
+ 205   3      
+ 206   3                              /* handle other keys */
+ 207   3                              else {                                                                                                           
+ 208   4                                      // when '=' is pressed previously, press other keys to clear and enter again                                               
+ 209   4                                      if (pressedEqualKey == 1)                               
+ 210   4                                              reset();        
+ 211   4                              
+ 212   4                                      if (numOfChars < MAX_SIZE) {
+ 213   5                                              // store data                                                                                                                                           
+ 214   5                                              bufferDisplay[numOfDisplayedChars++] = keys[row][col];
+ 215   5                                              bufferCalc[numOfChars++] = keys[row][col];
+ 216   5      
+ 217   5                                              // display on LCD
+ 218   5                                              lcd_movCur(1, 1);                                       
+ 219   5                                              lcd_sendStr(bufferDisplay);
+ 220   5                                      }
+ 221   4                                      else 
+ 222   4                                              numOfDisplayedChars = LCD_numOfCols - 1;        // exceed threshold
+ 223   4                              }                                                               
+ 224   3                      }
+ 225   2                      
+ 226   2                      /* ------------------------------handle blink cursor ------------------------------ */
+ 227   2                      lcd_movCur(1, numOfDisplayedChars+1);                           
+ 228   2                      if (pressedEqualKey == 1)
+ 229   2                              lcd_off_blinkCur();
+ 230   2                      else
+ 231   2                              lcd_blinkCur();
+ 232   2      
+ 233   2                      delay_ms(100);
+ 234   2          }
+ 235   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1524    ----
+   CONSTANT SIZE    =     30    ----
+C51 COMPILER V9.01   MAIN                                                                  07/08/2023 14:47:39 PAGE 5   
+
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     59      48
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
