@@ -25,6 +25,7 @@ void lcd_clear(void);
 void lcd_init(void);
 void lcd_movCur(uchar row, uchar column);
 void lcd_blinkCur(void);
+void lcd_off_blinkCur(void);
 void lcd_sendStr(uchar* string);
 void lcd_sendInt(uint value);
 void lcd_sendFloat(float value, uint precision);

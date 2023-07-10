@@ -12,7 +12,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4442
+Program Size: data=127.1 xdata=0 code=4545
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -20,7 +20,218 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4442
+Program Size: data=127.1 xdata=0 code=4547
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4534
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4519
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4533
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4534
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4535
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4536
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0E5FH
+Program Size: data=128.1 xdata=0 code=4527
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=127.1 xdata=0 code=4527
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -32,7 +243,7 @@ linking...
     SPACE:   DATA    
     SEGMENT: ?DT?LOG?LOG
     LENGTH:  0004H
-Program Size: data=128.1 xdata=0 code=4499
+Program Size: data=127.1 xdata=0 code=4651
 Target not created
 Build target 'Target 1'
 compiling main.c...
@@ -43,18 +254,7 @@ linking...
     SPACE:   DATA    
     SEGMENT: ?DT?LOG?LOG
     LENGTH:  0004H
-Program Size: data=127.1 xdata=0 code=4499
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   DATA    
-    SEGMENT: ?DT?LOG?LOG
-    LENGTH:  0004H
-Program Size: data=126.1 xdata=0 code=4499
+Program Size: data=126.1 xdata=0 code=4651
 Target not created
 Build target 'Target 1'
 compiling main.c...
@@ -72,15 +272,15 @@ linking...
 *** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
     SEGMENT: ?C_C51STARTUP
     MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0E46H
-Program Size: data=125.1 xdata=0 code=4499
+    ADDRESS: 0ED3H
+Program Size: data=125.1 xdata=0 code=4651
 Target not created
 Build target 'Target 1'
 compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4499
+Program Size: data=124.1 xdata=0 code=4651
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -88,7 +288,18 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4499
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4651
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=124.1 xdata=0 code=4651
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -96,14 +307,141 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4485
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0ED3H
+Program Size: data=125.1 xdata=0 code=4651
+Target not created
 Build target 'Target 1'
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4485
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0ED3H
+Program Size: data=125.1 xdata=0 code=4651
+Target not created
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0ED3H
+Program Size: data=125.1 xdata=0 code=4651
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4580
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0E97H
+Program Size: data=125.1 xdata=0 code=4580
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0E84H
+Program Size: data=125.1 xdata=0 code=4561
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4651
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   IDATA   
+    SEGMENT: ?STACK
+    LENGTH:  0001H
+*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
+    SEGMENT: ?C_C51STARTUP
+    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+    ADDRESS: 0ED3H
+Program Size: data=125.1 xdata=0 code=4651
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=124.1 xdata=0 code=4651
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -111,7 +449,51 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4467
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4578
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4578
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4527
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?LOG?LOG
+    LENGTH:  0004H
+Program Size: data=127.1 xdata=0 code=4648
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=124.1 xdata=0 code=4648
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -119,7 +501,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4481
+Program Size: data=124.1 xdata=0 code=4654
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -127,7 +509,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4482
+Program Size: data=124.1 xdata=0 code=4654
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -135,7 +517,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4482
+Program Size: data=124.1 xdata=0 code=4711
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -143,7 +525,14 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4500
+Program Size: data=124.1 xdata=0 code=4576
+creating hex file from "main"...
+"main" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
+Program Size: data=124.1 xdata=0 code=4576
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -151,7 +540,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4505
+Program Size: data=124.1 xdata=0 code=4506
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -167,7 +556,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4470
+Program Size: data=124.1 xdata=0 code=4502
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -175,24 +564,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4518
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MAIN.C(70): error C141: syntax error near ')'
-MAIN.C(77): error C202: 'numOfDigits': undefined identifier
-Target not created
-Build target 'Target 1'
-compiling main.c...
-MAIN.C(77): error C202: 'numOfDigits': undefined identifier
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4443
+Program Size: data=124.1 xdata=0 code=4573
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -200,15 +572,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=125.1 xdata=0 code=4443
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4443
+Program Size: data=124.1 xdata=0 code=4706
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -227,15 +591,15 @@ linking...
 *** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
     SEGMENT: ?C_C51STARTUP
     MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0E0EH
-Program Size: data=128.1 xdata=0 code=4443
+    ADDRESS: 0F0AH
+Program Size: data=125.1 xdata=0 code=4706
 Target not created
 Build target 'Target 1'
 compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4448
+Program Size: data=124.1 xdata=0 code=4706
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -243,66 +607,14 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   DATA    
-    SEGMENT: ?DT?LOG?LOG
-    LENGTH:  0004H
-Program Size: data=128.1 xdata=0 code=4504
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   DATA    
-    SEGMENT: ?DT?LOG?LOG
-    LENGTH:  0004H
-Program Size: data=127.1 xdata=0 code=4504
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   DATA    
-    SEGMENT: ?DT?LOG?LOG
-    LENGTH:  0004H
-Program Size: data=126.1 xdata=0 code=4504
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
-    SEGMENT: ?C_C51STARTUP
-    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0E4BH
-Program Size: data=125.1 xdata=0 code=4504
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4504
+Program Size: data=124.1 xdata=0 code=4757
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4504
+Program Size: data=124.1 xdata=0 code=4757
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -310,7 +622,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4514
+Program Size: data=124.1 xdata=0 code=4749
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -318,7 +630,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4514
+Program Size: data=124.1 xdata=0 code=4757
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -326,19 +638,7 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4500
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-MAIN.C(109): error C141: syntax error near '{'
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4513
+Program Size: data=124.1 xdata=0 code=4725
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
@@ -346,200 +646,6 @@ compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4457
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-compiling main.c...
-main.c - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=124.1 xdata=0 code=4513
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4461
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4459
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
-    SEGMENT: ?C_C51STARTUP
-    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0E1EH
-Program Size: data=128.1 xdata=0 code=4459
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
-    SEGMENT: ?C_C51STARTUP
-    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0E15H
-Program Size: data=128.1 xdata=0 code=4450
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4450
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4451
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4443
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4443
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4451
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4437
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4451
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4450
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4436
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4450
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4436
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4439
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4444
-creating hex file from "main"...
-"main" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L107: ADDRESS SPACE OVERFLOW
-    SPACE:   IDATA   
-    SEGMENT: ?STACK
-    LENGTH:  0001H
-*** ERROR L119: REFERENCE MADE TO ERRONEOUS SEGMENT
-    SEGMENT: ?C_C51STARTUP
-    MODULE:  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
-    ADDRESS: 0DEFH
-Program Size: data=128.1 xdata=0 code=4374
-Target not created
-Build target 'Target 1'
-compiling main.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD_SENDFLOAT?MAIN
-Program Size: data=127.1 xdata=0 code=4374
+Program Size: data=124.1 xdata=0 code=4725
 creating hex file from "main"...
 "main" - 0 Error(s), 1 Warning(s).
