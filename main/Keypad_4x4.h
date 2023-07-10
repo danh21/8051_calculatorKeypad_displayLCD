@@ -1,25 +1,28 @@
+/* ---------------------------------------------------------- LIBRARY ---------------------------------------------------------- */
 #include <reg51.h>
 
 
 
-#define uchar unsigned char
-#define uint unsigned int
-
-
-
-#define keypad_numOfRows 4
-#define keypad_numOfCols 4
-
-sbit KEYPAD_C4 = P1^0;
+/* ------------------------------------------------------ PIN CONNECTION ------------------------------------------------------- */
+sbit KEYPAD_C4 = P1^0;		// columns of keypad ...
 sbit KEYPAD_C3 = P1^1;
 sbit KEYPAD_C2 = P1^2;
 sbit KEYPAD_C1 = P1^3;
-sbit KEYPAD_R4 = P1^4;
+sbit KEYPAD_R4 = P1^4;		// rows of keypad ...
 sbit KEYPAD_R3 = P1^5;
 sbit KEYPAD_R2 = P1^6;
 sbit KEYPAD_R1 = P1^7;
 
-char keys[keypad_numOfRows][keypad_numOfCols] = {
+
+
+/* ---------------------------------------------------------- MACRO ------------------------------------------------------------ */
+#define uchar unsigned char
+#define uint unsigned int
+
+#define keypad_numOfRows 4							// number of rows
+#define keypad_numOfCols 4							// number of columns
+
+char keys[keypad_numOfRows][keypad_numOfCols] = {	// keys of keypad
 	'7', '8', '9', 0xFD,
 	'4', '5', '6', 'x',
 	'1', '2', '3', '-',
@@ -28,6 +31,16 @@ char keys[keypad_numOfRows][keypad_numOfCols] = {
 
 
 
+/* ---------------------------------------------------------- PROTOTYPE ---------------------------------------------------------- */
+// scan keypad to identify column of pressed key
+uint keypad_scanColumn(void); 
+
+// scan keypad to identify row of pressed key
+uint keypad_scanRow(void); 					
+
+
+
+/* ---------------------------------------------------------- FUNCTION ---------------------------------------------------------- */
 uint keypad_scanColumn() 
 {
 	uint col = -1;
