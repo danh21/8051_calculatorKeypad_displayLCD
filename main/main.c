@@ -1,5 +1,5 @@
 #include <reg51.h>
-#include "LCD_16x2.h"
+#include "LCD_16x2_4bit.h"
 #include "Keypad_4x4.h"
 #include <string.h>
 #include <math.h>

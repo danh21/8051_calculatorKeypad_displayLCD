@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  07/10/2023 22:55:15 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  07/12/2023 20:16:50 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -8,7 +8,7 @@ COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
 line level    source
 
    1          #include <reg51.h>
-   2          #include "LCD_16x2.h"
+   2          #include "LCD_16x2_4bit.h"
    3          #include "Keypad_4x4.h"
    4          #include <string.h>
    5          #include <math.h>
@@ -62,7 +62,7 @@ line level    source
   53   4                                      if (operator == '-' || operator == 0xFD)
   54   4                                      {
   55   5                                              operand1 = result;
-C51 COMPILER V9.01   MAIN                                                                  07/10/2023 22:55:15 PAGE 2   
+C51 COMPILER V9.01   MAIN                                                                  07/12/2023 20:16:50 PAGE 2   
 
   56   5                                              result = operand;
   57   5                                              operand = operand1;
@@ -126,7 +126,7 @@ line level    source
  114   4                                              return -2;
  115   4                                      result *= operand;
  116   4                              }                               
-C51 COMPILER V9.01   MAIN                                                                  07/10/2023 22:55:15 PAGE 3   
+C51 COMPILER V9.01   MAIN                                                                  07/12/2023 20:16:50 PAGE 3   
 
  117   3                              else if (operator == 0xFD) 
  118   3                              {
@@ -190,7 +190,7 @@ line level    source
  176          void main()
  177          {       
  178   1          uchar col, row, i;
-C51 COMPILER V9.01   MAIN                                                                  07/10/2023 22:55:15 PAGE 4   
+C51 COMPILER V9.01   MAIN                                                                  07/12/2023 20:16:50 PAGE 4   
 
  179   1              
  180   1              lcd_init();
@@ -254,7 +254,7 @@ line level    source
  238   5                                              bufferDisplay[numOfDisplayedChars++] = keys[row][col];
  239   5                                              bufferCalc[numOfChars++] = keys[row][col];
  240   5      
-C51 COMPILER V9.01   MAIN                                                                  07/10/2023 22:55:15 PAGE 5   
+C51 COMPILER V9.01   MAIN                                                                  07/12/2023 20:16:50 PAGE 5   
 
  241   5                                              // display on LCD
  242   5                                              lcd_movCur(1, 1);                                       
